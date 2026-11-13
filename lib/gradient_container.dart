@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_lab4_app/styled_text.dart';
 
 const startAlignment = Alignment.topCenter;
 const endAlignment = Alignment.bottomCenter;
@@ -26,8 +25,8 @@ class GradientContainer extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: const Center(
-        child: StyledText("Hello world!"),
+      child: Center(
+        child: Image.asset('assets/images/dice-1.png', width: 300),
       ),
     );
   }
